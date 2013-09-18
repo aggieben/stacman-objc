@@ -947,6 +947,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6 i386";
 			};
 			name = Debug;
 		};
@@ -979,6 +980,7 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6 i386";
 			};
 			name = Release;
 		};
